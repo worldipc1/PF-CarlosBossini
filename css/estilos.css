@@ -26,25 +26,17 @@ section {
   justify-content: center;
 }
 
-.hero-principal {
-  padding: 30px;
-}
-.hero-principal .hero-imagen {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
-}
-.hero-principal-principal h2 {
-  font-size: 1.5rem;
-  color: #615151;
-}
-.hero-principal-inferior {
-  text-align: center;
-}
-
 h1 {
   font-size: 2.5rem;
   font-family: "Oswald", sans-serif;
+}
+
+.hero-principal {
+  padding: 30px;
+}
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
 }
 
 .sobre-mi .contenedor {
@@ -60,14 +52,6 @@ h1 {
 .seccion-clara {
   color: black;
   background-color: whitesmoke;
-}
-
-.texto-blanco {
-  color: white;
-}
-
-.texto-negro {
-  color: black;
 }
 
 .seccion-titulo {
@@ -122,6 +106,32 @@ h1 {
   margin: 10px 0;
 }
 
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  bottom: 10px;
+  /* transform:(-50%, -50%);*/
+  text-align: center;
+  width: 100%;
+}
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-shadow: 0px 5px 3px blueviolet;
+}
+.overlay .iconos-contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
 .proyecto {
   position: relative;
 }
@@ -141,38 +151,14 @@ h1 {
   padding-top: 60px;
   margin-bottom: 40px;
 }
+.proyecto:hover img {
+  opacity: 0.2;
+}
 .proyecto:hover .overlay {
   opacity: 1;
 }
-.proyecto:hover .overlay {
-  transition: all 0.2s ease;
-  opacity: 0;
-  position: absolute;
-  bottom: 10px;
-  /* transform:(-50%, -50%);*/
-  text-align: center;
-  width: 100%;
-}
-.proyecto:hover .overlay p {
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 0;
-  text-transform: uppercase;
-  text-shadow: 0px 5px 3px blueviolet;
-}
-.proyecto:hover .overlay .iconos-contenedor {
-  display: flex;
-  justify-content: space-around;
-}
-.proyecto:hover .overlay i {
-  color: black;
-  font-size: 60px;
-  margin: 10px;
-}
-.proyecto :hover img {
-  opacity: 0.2;
-}
-.proyecto .btn-info {
+
+.btn-info {
   font-size: 1.1rem;
   margin: 20px;
   font-weight: bold;
@@ -181,6 +167,14 @@ h1 {
 .seccion-descripcion {
   font-size: 1.2rem;
   color: #615151;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+.texto-negro {
+  color: black;
 }
 
 .articulos {
