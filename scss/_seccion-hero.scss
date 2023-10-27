@@ -1,0 +1,40 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+.hero-principal {
+
+    padding: 30px;
+
+    h2 {
+        font-size: 1.5rem;
+        color: #615151;
+    }
+}
+
+
+
+
+&-inferior {
+    text-align: center;
+}
+
+
+
+
+
+// seccion sobre mi
+.sobre-mi .contenedor {
+    width: auto;
+    text-align: center;
+}

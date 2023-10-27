@@ -1,0 +1,55 @@
+.experiencia {
+
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .columna {
+        padding: 20px;
+        border: solid #8080804d;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        &:hover {
+            color: white;
+            background-color: #1b1b32;
+        }
+
+    }
+
+    i {
+        font-size: 2.5rem;
+        color: #7ade30;
+        background-color: #0a0a23;
+        padding: 8px 19px;
+        border-radius: 50%;
+
+    }
+
+    &-titulo {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 10px 0;
+
+    }
+
+
+}
+
+
+
+.badges {
+    padding: 10px;
+    margin: 5px;
+
+    &-contenedor {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+}

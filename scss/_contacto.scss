@@ -1,0 +1,50 @@
+.contacto {
+    .container {
+
+        max-width: auto;
+        min-height: 200px;
+        padding: 20px;
+
+    }
+
+    .rectangulo {
+        margin-top: -5rem;
+        background-color: rgb(13, 110, 253);
+        border-radius: 10px;
+        box-shadow: 0 1px 4px 1px white;
+    }
+
+    .row {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .seccion-descripcion {
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    button {
+        color: white;
+        font-weight: bold;
+        background-color: transparent;
+        border: 2px solid white;
+        padding: 1.25rem;
+        margin: 10px;
+        border-radius: 100%;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            background-color: white;
+            color: black;
+
+            i {
+                color: white;
+                font-size: 1.3rem;
+                transition: all 0.2s ease-in-out;
+            }
+
+        }
+    }
+}

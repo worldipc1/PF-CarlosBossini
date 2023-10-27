@@ -1,0 +1,4 @@
+1: npm init / inicializar
+2: npm install g- sass /instalacion global
+3: sass --watch scss:css / esto es para hacer copia del sass al css
+

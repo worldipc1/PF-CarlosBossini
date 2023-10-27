@@ -1,0 +1,57 @@
+.testimonios {
+    padding: 40px 40px 80px 40px;
+    scroll-margin-top: 100px;
+
+    &-carrusel {
+        max-width: 800px;
+    }
+}
+
+.carousel-item {
+    min-height: 500px;
+
+
+
+    & .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.testimonio {
+
+    &-imagen {
+        height: 150px;
+        width: 150px;
+        margin: 10px 10px 20px 10px;
+
+    }
+
+    &-texto {
+        max-width: 70%;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Share Tech Mono', monospace;
+
+    }
+
+    &-info {
+        font-weight: bold;
+        text-align: center;
+
+        p {
+            margin-bottom: 0;
+
+        }
+
+        .cargo {
+            font-size: 0.9rem;
+            color: #656060;
+        }
+    }
+
+}
