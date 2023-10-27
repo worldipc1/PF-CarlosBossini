@@ -1,0 +1,17 @@
+@mixin medidas ($display) {
+    @media screen and (max-width:$display) {
+        @content
+    }
+
+}
+
+@mixin overdetalle {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    bottom: 10px;
+    /* transform:(-50%, -50%);*/
+    text-align: center;
+    width: 100%;
+
+}

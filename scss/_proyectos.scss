@@ -1,11 +1,5 @@
 .overlay {
-    transition: all 0.2s ease;
-    opacity: 0;
-    position: absolute;
-    bottom: 10px;
-    /* transform:(-50%, -50%);*/
-    text-align: center;
-    width: 100%;
+    @include overdetalle;
 
     p {
         font-size: 25px;
@@ -13,7 +7,11 @@
         margin-bottom: 0;
         text-transform: uppercase;
         text-shadow: 0px 5px 3px blueviolet;
-
+        // @media screen and (max-width:400px)
+        @include medidas ("400px")
+        {
+            font-size: 18px;
+        }
     }
 
     .iconos-contenedor {
@@ -25,7 +23,10 @@
         color: black;
         font-size: 60px;
         margin: 10px;
-
+        @include medidas ("400px")
+        {
+            font-size: 40px;
+        }
     }
 
 }
@@ -35,7 +36,7 @@
 
     position: relative;
 
-    &-recientes {
+    &s-recientes {
         padding: 40px;
         scroll-margin-top: 100px;
 

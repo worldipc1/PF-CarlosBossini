@@ -1,11 +1,12 @@
-.seccion-oscura
-{
-    color:white;
-    background-color: black;
-}
-.seccion-clara
-{
-
-    color: black;
-    background-color: whitesmoke;
+.seccion{
+    &-oscura
+    {
+        color:white;
+        background-color: black;
+    }
+    &-clara
+    {
+        color: black;
+        background-color: whitesmoke;
+    }
 }

@@ -39,6 +39,10 @@ h1 {
   color: #615151;
 }
 
+.hero-inferior {
+  text-align: center;
+}
+
 .sobre-mi .contenedor {
   width: auto;
   text-align: center;
@@ -48,7 +52,6 @@ h1 {
   color: white;
   background-color: black;
 }
-
 .seccion-clara {
   color: black;
   background-color: whitesmoke;
@@ -59,8 +62,15 @@ h1 {
   padding: 15px 0;
   font-family: "Oswald", sans-serif;
 }
-.seccion-titulo-texto {
+.seccion-texto {
   font-size: 1.2rem;
+}
+@media screen and (max-width: 400px) {
+  .seccion-texto {
+    width: 100%;
+    padding: 1rem;
+    text-align: justify;
+  }
 }
 
 .experiencia {
@@ -122,6 +132,11 @@ h1 {
   text-transform: uppercase;
   text-shadow: 0px 5px 3px blueviolet;
 }
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+}
 .overlay .iconos-contenedor {
   display: flex;
   justify-content: space-around;
@@ -131,15 +146,20 @@ h1 {
   font-size: 60px;
   margin: 10px;
 }
+@media screen and (max-width: 400px) {
+  .overlay i {
+    font-size: 40px;
+  }
+}
 
 .proyecto {
   position: relative;
 }
-.proyecto-recientes {
+.proyectos-recientes {
   padding: 40px;
   scroll-margin-top: 100px;
 }
-.proyecto-recientes img {
+.proyectos-recientes img {
   height: 100%;
   width: 100%;
   padding: 10px;
@@ -289,20 +309,5 @@ h1 {
 @media screen and (min-width: 700px) {
   .hero-inferior-imagen {
     max-width: 600px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .overlay p {
-    font-size: 18px;
-  }
-  .overlay i {
-    font-size: 40px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .seccion-texto {
-    width: 100%;
-    padding: 1rem;
-    text-align: justify;
   }
 }/*# sourceMappingURL=estilos.css.map */
