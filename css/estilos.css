@@ -19,6 +19,42 @@ header nav .navbar-collapse {
   justify-content: space-between;
 }
 
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales a i {
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: #0a0a23;
+}
+
+.derecho {
+  font-size: 15px;
+  color: white;
+  padding: 20px;
+}
+
 section {
   display: flex;
   flex-direction: column;
