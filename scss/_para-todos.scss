@@ -1,12 +1,12 @@
 .seccion{
     &-oscura
     {
-        color:white;
-        background-color: black;
+        color:$blanco;
+        background-color: $negro;
     }
     &-clara
     {
-        color: black;
-        background-color: whitesmoke;
+        color: $negro;
+        background-color: $blanco;
     }
 }
