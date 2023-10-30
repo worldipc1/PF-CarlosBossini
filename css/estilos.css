@@ -352,4 +352,9 @@ h1 {
   .hero-inferior-imagen {
     max-width: 600px;
   }
+}
+@media screen and (max-width: 548px) {
+  h1 {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=estilos.css.map */
