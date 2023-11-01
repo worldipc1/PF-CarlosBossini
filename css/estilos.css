@@ -25,7 +25,9 @@ header {
 }
 header nav {
   padding: 2rem;
-  background-color: #347ac0;
+  background: linear-gradient(45deg, rgb(157, 0, 255), blue, green, black);
+  animation: anime 10s ease infinite;
+  background-size: 400% 400%;
 }
 header nav .navbar-collapse {
   align-items: center;
@@ -98,6 +100,11 @@ h1 {
   background-color: white;
 }
 
+.seccion {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
@@ -155,6 +162,11 @@ h1 {
   font-weight: bold;
   margin: 10px 0;
   cursor: pointer;
+}
+
+.exper:hover {
+  font-size: 2rem;
+  color: #0a0b08;
 }
 
 .overlay {
@@ -353,6 +365,10 @@ h1 {
   animation-iteration-count: infinite;
 }
 
+.animate__animated.animate__bounceInUp {
+  animation-iteration-count: infinite;
+}
+
 @keyframes texto {
   0% {
     opacity: 0;
@@ -364,12 +380,17 @@ h1 {
     opacity: 100%;
   }
 }
-.seccion-titulo {
-  animation-name: texto;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+@keyframes anime {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
-
 @media screen and (max-width: 767px) {
   .logo {
     display: none;
@@ -397,6 +418,10 @@ h1 {
   animation-iteration-count: infinite;
 }
 
+.animate__animated.animate__bounceInUp {
+  animation-iteration-count: infinite;
+}
+
 @keyframes texto {
   0% {
     opacity: 0;
@@ -408,8 +433,29 @@ h1 {
     opacity: 100%;
   }
 }
-.seccion-titulo {
-  animation-name: texto;
-  animation-duration: 2s;
+@keyframes anime {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+.animate__animated.animate__heartBeat {
+  animation-iteration-count: infinite;
+}
+
+.animate__animated.animate__flipInX {
+  animation-iteration-count: infinite;
+}
+
+.animate__animated.animate__zoomIn:hover {
+  animation-iteration-count: infinite;
+}
+
+.animate__animated.animate__bounceInUp {
   animation-iteration-count: infinite;
 }/*# sourceMappingURL=estilos.css.map */

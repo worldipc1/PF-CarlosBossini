@@ -1,5 +1,7 @@
 .seccion {
-
+    animation-name: texto;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 
     &-titulo {
         font-size: 2rem;
