@@ -9,7 +9,9 @@
 
     .rectangulo {
         margin-top: -5rem;
-        background-color: rgb(13, 110, 253);
+        background: linear-gradient(90deg,#020024, #096479, #00d4ff);
+        animation: anime 10s ease infinite;
+        background-size: 400% 400%;
         border-radius: 10px;
         box-shadow: 0 1px 4px 1px $blanco;
     }

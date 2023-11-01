@@ -25,7 +25,7 @@ header {
 }
 header nav {
   padding: 2rem;
-  background: linear-gradient(45deg, rgb(157, 0, 255), blue, green, black);
+  background: linear-gradient(45deg, #020024, #096479, #00d4ff);
   animation: anime 10s ease infinite;
   background-size: 400% 400%;
 }
@@ -320,7 +320,9 @@ h1 {
 }
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background: linear-gradient(90deg, #020024, #096479, #00d4ff);
+  animation: anime 10s ease infinite;
+  background-size: 400% 400%;
   border-radius: 10px;
   box-shadow: 0 1px 4px 1px white;
 }
@@ -351,22 +353,6 @@ h1 {
   color: black;
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
-}
-
-.animate__animated.animate__heartBeat {
-  animation-iteration-count: infinite;
-}
-
-.animate__animated.animate__flipInX {
-  animation-iteration-count: infinite;
-}
-
-.animate__animated.animate__zoomIn:hover {
-  animation-iteration-count: infinite;
-}
-
-.animate__animated.animate__bounceInUp {
-  animation-iteration-count: infinite;
 }
 
 @keyframes texto {
@@ -406,22 +392,6 @@ h1 {
     font-size: 30px;
   }
 }
-.animate__animated.animate__heartBeat {
-  animation-iteration-count: infinite;
-}
-
-.animate__animated.animate__flipInX {
-  animation-iteration-count: infinite;
-}
-
-.animate__animated.animate__zoomIn:hover {
-  animation-iteration-count: infinite;
-}
-
-.animate__animated.animate__bounceInUp {
-  animation-iteration-count: infinite;
-}
-
 @keyframes texto {
   0% {
     opacity: 0;
