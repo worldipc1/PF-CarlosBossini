@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--meta datos-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Carlos Bossini">
+    <meta name="description" content="Portafolio de desarrollo de Calos Bossini">
+    <meta name="keywords" content="HTML,CSS,JavaScript, React">
+    <!-- <meta name="viewport" conten="device-width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <!--titulo-->
+    <title>Carlos Bossini2 /Desarrollo web Front-End</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="../img/icono.png">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--css-->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Poppins:wght@700&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Poppins:wght@700&family=Share+Tech+Mono&family=Young+Serif&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body class="container-fluid">
+    <!--Barra de Navegacion-->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarToggler">
+                    <a class="navbar-brand" href="#"><img class="logo" src="../img/icono.png" alt="logopaginaweb">
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html#sobre-mi">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true" href="#testimonios">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-disabled="true" href="./contacto.html#contact">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-disabled="true"
+                                href="./ubicacion.html#nuestra-ubicacion">Ubicacion</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--testimonios carrusel-->
+    <section id="testimonios" class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Estos son los testimonios de mis clientes</h3>
+        <!--carrusel-->
+        <div id="testimonio-carrusel" class="carousel carrusel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="../img/cliente1.svg" alt="jean">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos vel
+                        </p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Gino</p>
+                            <p class="cargo"> desarrollador web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="../img/cliente2.svg" alt="nora">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos vel
+                        </p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Gino</p>
+                            <p class="cargo"> gerente diseña mi pagina web</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="../img/cliente2.svg" alt="nora">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos vel
+                        </p>
+                        <div class="testimonio-info">
+                            <p class="cliente">nacho</p>
+                            <p class="cargo"> desarrollador</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonio-carrusel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon text-light bg-dark rounded-circle " aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#testimonio-carrusel"
+                data-bs-slide="next ">
+                <span class="carousel-control-next-icon text-light bg-dark rounded-circle" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="../img/icono-blanco.svg" alt="logo del portafolio">
+        <p class="footer-texto text-center">Aprendo y Creo todos los dias</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://www.facebook.com/" alt="face"><button class="face rounded-5 "> <i
+                        class="bi bi-facebook"></i></button></a>
+            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"
+                alt="twitter"><button class="twitter rounded-5"><i class="bi bi-twitter"></i></button></a>
+            <a href="https://ar.linkedin.com/" alt="linkedin"><button class="linkedin rounded-5"> <i
+                        class="bi bi-linkedin"></i></button></a>
+        </div>
+
+        <div class="derecho-de-autor">Creado Por Carlos Bossini todos los derechos reservados 2023 &#169;</div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
