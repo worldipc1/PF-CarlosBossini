@@ -45,10 +45,12 @@
 .badges {
     padding: 10px;
     margin: 5px;
+    
 
     &-contenedor {
         font-size: 20px;
         font-weight: bold;
         margin: 10px 0;
+       cursor:pointer;
     }
 }

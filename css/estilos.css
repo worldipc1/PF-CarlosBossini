@@ -80,7 +80,6 @@ h1 {
   font-size: 1.5rem;
   color: #615151;
 }
-
 .hero-inferior {
   text-align: center;
 }
@@ -155,6 +154,7 @@ h1 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;
+  cursor: pointer;
 }
 
 .overlay {
@@ -337,9 +337,34 @@ h1 {
   color: black;
 }
 .contacto button:hover i {
-  color: white;
+  color: black;
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
+}
+
+.animate__animated.animate__heartBeat {
+  animation-iteration-count: infinite;
+}
+
+.animate__animated.animate__flipInX {
+  animation-iteration-count: infinite;
+}
+
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.seccion-titulo {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 @media screen and (max-width: 767px) {
