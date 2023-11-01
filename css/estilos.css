@@ -162,7 +162,6 @@ h1 {
   opacity: 0;
   position: absolute;
   bottom: 10px;
-  /* transform:(-50%, -50%);*/
   text-align: center;
   width: 100%;
 }
@@ -350,6 +349,10 @@ h1 {
   animation-iteration-count: infinite;
 }
 
+.animate__animated.animate__zoomIn:hover {
+  animation-iteration-count: infinite;
+}
+
 @keyframes texto {
   0% {
     opacity: 0;
@@ -381,4 +384,32 @@ h1 {
   h1 {
     font-size: 30px;
   }
+}
+.animate__animated.animate__heartBeat {
+  animation-iteration-count: infinite;
+}
+
+.animate__animated.animate__flipInX {
+  animation-iteration-count: infinite;
+}
+
+.animate__animated.animate__zoomIn:hover {
+  animation-iteration-count: infinite;
+}
+
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.seccion-titulo {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }/*# sourceMappingURL=estilos.css.map */

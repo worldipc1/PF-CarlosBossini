@@ -4,6 +4,9 @@
 .animate__animated.animate__flipInX{
     animation-iteration-count: infinite;
 }
+.animate__animated.animate__zoomIn:hover {
+    animation-iteration-count: infinite;
+}
 
 @keyframes texto {
     0%{
