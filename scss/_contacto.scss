@@ -4,6 +4,7 @@
         max-width: auto;
         min-height: 200px;
         padding: 20px;
+        
 
     }
 
@@ -49,4 +50,14 @@
 
         }
     }
+}
+.contact-container{
+   
+    width: 25%vw;
+    height: 500px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    margin-bottom: 70px;
 }
