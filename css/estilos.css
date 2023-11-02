@@ -2,6 +2,14 @@ body {
   padding-top: 100px;
 }
 
+.hero-imagen {
+  background-color: #5f7e78;
+}
+.hero-imagen:hover {
+  height: 320px;
+  width: 320px;
+}
+
 .nuestra-ubicacion {
   padding-top: 50px;
   display: flex;
