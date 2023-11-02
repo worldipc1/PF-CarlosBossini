@@ -1,12 +1,12 @@
 .animate__animated.animate__heartBeat{
-    animation-iteration-count: infinite;
+    animation-iteration-count:initial;
 }
 .animate__animated.animate__flipInX{
-    animation-iteration-count: infinite;
+    animation-iteration-count:2s;
 }
 .animate__animated.animate__zoomIn:hover {
     animation-iteration-count: infinite;
 }
-.animate__animated.animate__bounceInUp{
-animation-iteration-count: infinite;
+.animate__animated.animate__backInLeft{
+animation-iteration-count:infinite;
 }

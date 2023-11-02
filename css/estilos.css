@@ -9,6 +9,9 @@ body {
   justify-content: space-around;
   text-decoration: overline;
   padding-bottom: 100px;
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .mapouter {
@@ -34,7 +37,7 @@ header nav .navbar-collapse {
   justify-content: space-between;
 }
 
-.nav-link {
+.navbar-nav .nav-link.active, .nav-link {
   color: #0d6efd;
   text-shadow: black 1px -2px;
   font-size: 20px;
@@ -277,6 +280,14 @@ h1 {
   width: 100%;
 }
 
+.boton {
+  border-radius: 20px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  cursor: pointer;
+}
+
 .testimonios {
   padding: 40px 40px 80px 40px;
   scroll-margin-top: 100px;
@@ -410,17 +421,17 @@ h1 {
   }
 }
 .animate__animated.animate__heartBeat {
-  animation-iteration-count: infinite;
+  animation-iteration-count: initial;
 }
 
 .animate__animated.animate__flipInX {
-  animation-iteration-count: infinite;
+  animation-iteration-count: 2s;
 }
 
 .animate__animated.animate__zoomIn:hover {
   animation-iteration-count: infinite;
 }
 
-.animate__animated.animate__bounceInUp {
+.animate__animated.animate__backInLeft {
   animation-iteration-count: infinite;
 }/*# sourceMappingURL=estilos.css.map */
