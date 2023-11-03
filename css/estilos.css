@@ -2,14 +2,6 @@ body {
   padding-top: 100px;
 }
 
-.hero-imagen {
-  background-color: #5f7e78;
-}
-.hero-imagen:hover {
-  height: 320px;
-  width: 320px;
-}
-
 .nuestra-ubicacion {
   padding-top: 50px;
   display: flex;
@@ -103,13 +95,6 @@ h1 {
   text-align: center;
   padding-bottom: 15px;
 }
-.hero-imagen {
-  background-color: #5f7e78;
-}
-.hero-imagen:hover {
-  height: 320px;
-  width: 320px;
-}
 
 .sobre-mi .contenedor {
   width: auto;
@@ -187,11 +172,6 @@ h1 {
   font-weight: bold;
   margin: 10px 0;
   cursor: pointer;
-}
-
-.exper:hover {
-  font-size: 2rem;
-  color: #0a0b08;
 }
 
 .overlay {
@@ -448,5 +428,5 @@ h1 {
 }
 
 .animate__animated.animate__backInLeft {
-  animation-iteration-count: infinite;
+  animation-iteration-count: 5s;
 }/*# sourceMappingURL=estilos.css.map */
