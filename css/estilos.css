@@ -269,7 +269,7 @@ h2 {
   color: black;
 }
 
-p {
+p, .descripcion {
   font-family: "Sometype Mono", monospace;
   font-weight: 100;
 }
