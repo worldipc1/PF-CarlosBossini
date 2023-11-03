@@ -138,6 +138,11 @@ h2 {
   }
 }
 
+.exper {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
 .experiencia {
   padding: 20px;
   border: 2px solid rgba(128, 128, 128, 0.3019607843);
