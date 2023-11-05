@@ -11,24 +11,26 @@ h1 {
     font-weight: 400;
 
 }
-h2{
-    font-size:2rem;
+
+h2 {
+    font-size: 2rem;
     font-family: 'Edu TAS Beginner', cursive;
     font-weight: 200;
-    
+
 }
 
 
 .hero {
     &-principal {
 
-        padding: 30px;
+        padding: 100px 30px 30px;
 
         h2 {
             font-size: 1.5rem;
             color: #615151;
         }
     }
+
     &-inferior {
         text-align: center;
         padding-bottom: 15px;
