@@ -427,6 +427,13 @@ p, .descripcion {
     font-size: 30px;
   }
 }
+@media screen and (max-width: 700px) {
+  .icono {
+    font-size: 30px;
+    right: 10px;
+    bottom: 60px;
+  }
+}
 @keyframes texto {
   0% {
     opacity: 0;
