@@ -39,7 +39,7 @@
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
-                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation" onclick="sound.play()">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarToggler">
@@ -48,7 +48,7 @@
                     </a>
                     <ul class="navbar-nav d-flex justify-content-center align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre Mi</a>
+                            <a class="nav-link active" aria-current="page" href="#sobre-mi"onclick="sound.play()">Sobre Mi</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./html/proyectos.html#proyectos">Proyectos</a>
@@ -149,7 +149,7 @@
             <ul class="list-group list-group-flush">
 
                 <li class=" list-group-item hoverly "><a class="exper text-decoration-none "
-                        href="https://raiolanetworks.es/blog/bootstrap/" alt="linkweb" target="_blank">Como utilizar
+                        href="https://raiolanetworks.es/blog/bootstrap/" alt="linkweb" target="_blank"onclick="sound.play()">Como utilizar
                         Bootsrap</a>
                 </li>
 
@@ -160,24 +160,24 @@
 
                 <li class="list-group-item hoverly"><a class="exper text-decoration-none"
                         href="https://lenguajecss.com/css/maquetacion-y-colocacion/grid-css/" alt="linkweb"
-                        target="_blank">
+                        target="_blank"onclick="sound.play()">
                         Como utlizar Grid </a></li>
 
                 <li class="list-group-item hoverly">
                     <a class="exper text-decoration-none"
                         href="https://www.ionos.es/digitalguide/paginas-web/creacion-de-paginas-web/css-flexbox/"
-                        alt="linkweb" target="_blank">
+                        alt="linkweb" target="_blank"onclick="sound.play()">
                         Como utilizar Flexbox </a>
                 </li>
 
                 <li class="list-group-item hoverly "><a class="exper text-decoration-none"
-                        href="https://www.freecodecamp.org/espanol/" target="_blank">
+                        href="https://www.freecodecamp.org/espanol/" target="_blank"onclick="sound.play()">
                         Como cargar un archivo en GitHub </a></li>
 
             </ul>
         </div>
         <a class="text-decoration-none" href="https://git-scm.com/download/win" target="_blank">
-            <button type="button" class="btn btn-outline-info boton">Ver mas Articulos
+            <button type="button" class="btn btn-outline-info boton" onclick="sound.play()">Ver mas Articulos
                 <i class="bi bi-arrow-up-right hoverly"></i>
             </button>
         </a>
@@ -200,7 +200,7 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <a href="mailto: worldipc1@live.com">
-                            <button type="button"> Contacto <i class="bi bi-envelope-at "></i></button>
+                            <button type="button" onclick="sound.play()"> Contacto <i class="bi bi-envelope-at "></i></button>
                         </a>
                     </div>
                 </div>
@@ -214,13 +214,13 @@
         <img class="footer-logo" src="./img/icono-blanco.svg" alt="logo del portafolio">
         <p class="footer-texto text-center">Aprendo y Creo todos los dias</p>
         <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
-            <a href="https://www.facebook.com/" target="_blank" alt="face"><button
-                    class="animate__animated animate__zoomIn face rounded-5 "> <i
+            <a href="https://www.facebook.com/" target="_blank" alt="face"onclick="sound.play()"><button
+                    class="animate__animated animate__zoomIn face rounded-5 "onclick="sound.play()"> <i
                         class="bi bi-facebook"></i></button></a>
             <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"
-                target="_blank" alt="twitter"><button class="animate__animated animate__zoomIn twitter rounded-5"><i
+                target="_blank" alt="twitter" onclick="sound.play()"><button class="animate__animated animate__zoomIn twitter rounded-5"><i
                         class="  bi bi-twitter"></i></button></a>
-            <a href="https://ar.linkedin.com/" target="_blank" alt="linkedin"><button
+            <a href="https://ar.linkedin.com/" target="_blank" alt="linkedin" onclick="sound.play()"><button
                     class="animate__animated animate__zoomIn linkedin rounded-5"> <i
                         class="bi bi-linkedin"></i></button></a>
         </div>
@@ -234,6 +234,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+        <script src="./js/app.js"></script>
 </body>
 
 </html>
